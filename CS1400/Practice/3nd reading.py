@@ -44,3 +44,7 @@ for child in range(1,9,3) :
 #(1,9,3) >>> 1부터 9까지 3씩 더하면서 루프해.
 # same as (int i = 1; i <= 9; i+3)
 # >> kid 1,4,7 gets candy
+
+#참고로 range(10)이 아니라 그냥 10 넣으면 숫자 10하나만 있기땜누에 반복문 X!
+# for i in range(10) : 1,2,3...9
+# for i in 10 : 10. 그래서 뭐?
